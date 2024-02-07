@@ -1,0 +1,16 @@
+<div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm" onsubmit="validateForm()" method="post">
+          <label for="nip">NIP:</label>
+          <input type="text" id="nip" name="nip" required>
+    
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+
+          <button type="submit">Login</button>
+          
+          <a href="/register" >Register</a>
+
+        </form>
+        <p id="error-message"></p>
+</div>

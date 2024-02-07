@@ -1,0 +1,9 @@
+aside{
+    position:fixed;
+    height:100%;
+    width:280px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    background-color: aliceblue;
+  }
